@@ -415,7 +415,7 @@ class Render:
         global settings
 
         self._game.run_turn()
-        time.sleep(0.500)
+        time.sleep(0.200)
         self.paint()
         self.update_title(self._game.turns, settings.max_turns)
 
